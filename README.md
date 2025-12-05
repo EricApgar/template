@@ -1,2 +1,11 @@
-# template
-Template repo.
+# {Repo Name}
+Description of the repo.
+
+# Setup
+...
+
+# Usage
+...
+
+# Notes
+...
