@@ -1,13 +1,10 @@
-# Description
+## Description
 ...
 
 ## Summary of Changes
 ...
 
-## Closed Issues
-* ...
-
-Use "Closes #..." to automatically close an issue.
+Use ```Closes #X``` to automatically close an issue addressed by this PR.
 
 # Proof it Works
 ...
