@@ -2,11 +2,17 @@
 |-|-|-|-|-|
 | Bug Report | Create a bug report. | | bug | |
 
-# What is the problem?
+## What's the problem?
 ...
 
-## Description
+## Steps to Reproduce
 ...
 
-# What is the solution?
+## Screenshot
+If applicable.
+
+## Proposed Solution
+...
+
+## Notes
 ...
