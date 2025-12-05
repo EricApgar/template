@@ -2,5 +2,11 @@
 |-|-|-|-|-|
 | Feature Request | Ask for a new feature. | | enhancement | |
 
-# What do you want?
+## Desired Change
+...
+
+## Rationale
+...
+
+## Notes
 ...
