@@ -1,6 +1,10 @@
-| name | about | title | labels | assignees |
-|-|-|-|-|-|
-| Feature Request | Ask for a new feature. | | enhancement | |
+---
+name: Enhancement Request
+about: Ask for a change.
+title: ""
+labels: ["enhancement"]
+assignees: []
+---
 
 ## Desired Change
 ...
