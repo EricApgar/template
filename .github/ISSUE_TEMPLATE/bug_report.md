@@ -1,6 +1,13 @@
-| name | about | title | labels | assignees |
-|-|-|-|-|-|
-| Bug Report | Create a bug report. | | bug | |
+---
+name: Bug report
+about: Create a report to help us improve
+title: ""
+labels: ["bug"]
+assignees: []
+---
+
+<!-- Rest of the template body here -->
+
 
 ## What's the problem?
 ...
