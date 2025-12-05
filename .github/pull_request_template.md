@@ -1,0 +1,13 @@
+# Description
+...
+
+## Summary of Changes
+...
+
+## Closed Issues
+* ...
+
+Use "Closes #..." to automatically close an issue.
+
+# Proof it Works
+...
