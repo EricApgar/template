@@ -5,7 +5,7 @@ description = "Template for repos that are intended to be packaged libraries."
 readme = "README.md"
 authors = [{ name = "Eric Apgar" }]
 urls = { "Homepage" = "https://github.com/EricApgar/template" }
-requires-python = "~=3.13"
+requires-python = "~=3.13.0"
 
 # Examples of dependency types.
 # dependencies = [
@@ -20,6 +20,25 @@ requires-python = "~=3.13"
 # ]
 
 dependencies = []
+
+# Examples of optional dependencies.
+# [project.optional-dependencies]
+# option_1 = [
+#     "lib_1>=0.18.0",
+#     "lib_2>=2.2.1"]
+# option_2 = [
+#     "lib_1>=1.0",
+#     "lib_3>=2.0"]
+# option_3 = [
+#     "lib_2>=0.5",
+#     "lib_3>=3.1"]
+
+# Unfortunately, an all option just has to list everything - no way to chain options.
+# all = [
+#     "lib_1",
+#     "lib_2",
+#     "lib_3",
+# ]
 
 # If you need to add an index (extra "source" location) for certain packages: 
 # [[tool.uv.index]]
