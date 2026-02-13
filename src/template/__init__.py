@@ -6,7 +6,7 @@ import template
 ns = template.item_1()
 '''
 from __future__ import annotations
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING
 
 
 # Public, supported “namespaces”.
@@ -22,11 +22,8 @@ if TYPE_CHECKING:
 
 def __getattr__(name: str):
     if name == 'item_1':
-        try:
-            from .item_folder.item_1_file import item_1
-            globals()[name] = item_1  # Recommended for smoother checking.
-        except ImportError:
-            raise ImportError('Missing packages for "namespace"! Install with "template[namespace]" or "template[all]".')
+        from .item_folder.item_1_file import item_1
+        globals()[name] = item_1  # Recommended for smoother checking.
         return item_1
 
     if name == 'item_2':
@@ -38,5 +35,5 @@ def __getattr__(name: str):
 
 
 def __dir__() -> list[str]:
-    # Makes dir(llm) include your lazy “namespaces”
+    # Makes dir(llm) include your lazy “namespaces”.
     return sorted(set(globals().keys()) | set(__all__))
