@@ -35,14 +35,6 @@ dependencies = []
 
 # Unfortunately, an all option just has to list everything - no way to chain options.
 # all = [
-#     "numpy==2.3.2",
-#     "pandas~=2.3",
-#     "PyYAML>5.1.1",
-#     "Pygments",
-#     'python-certifi-win32; platform_system == "Windows"',
-#     "torch",
-#     "torchvision",
-#     "llm"
 #     "lib_1",
 #     "lib_2",
 #     "lib_3",
